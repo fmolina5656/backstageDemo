@@ -8,27 +8,4 @@ metadata:
     graph.microsoft.com/group-id: b07249aa-67b5-40c0-a972-42ac7c15f3ca
   name: DemoYAMLTest
   description: asd - CreatedBy SANDBOXGoC
-  external:
-    type: azure-ad/group
-    id: b07249aa-67b5-40c0-a972-42ac7c15f3ca
-  uid: 49dcbac1-816a-49fa-9568-21c4fda8dd47
-  etag: 2d4dac08c115de65a678f87e7a074b2a92381715
-relations:
-  - type: childOf
-    targetRef: group:default/goc_labs
-    target:
-      kind: group
-      namespace: default
-      name: goc_labs
-  - type: hasMember
-    targetRef: user:default/stiven_readymind.ms
-    target:
-      kind: user
-      namespace: default
-      name: stiven_readymind.ms
-spec:
-  type: team
-  profile:
-    displayName: deletememmolina1
-  children: []
-  parent: group:default/goc_labs
+  
