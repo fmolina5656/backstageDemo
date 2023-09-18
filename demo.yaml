@@ -6,3 +6,8 @@ metadata:
   external:
     type: azure-ad/group
     id: b07249aa-67b5-40c0-a972-42ac7c15f3ca  
+spec:
+  type: team
+  profile:
+    displayName: DemoYAMLTest
+  children: []
