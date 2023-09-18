@@ -1,13 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: DemoYAMLTest
-  description: asd - CreatedBy SANDBOXGoC
-  external:
+  namespace: default
+  name: demoYaml
+  description: blah
+  externaldemoYaml
     type: azure-ad/group
-    id: b07249aa-67b5-40c0-a972-42ac7c15f3ca  
+    id: 51f1fcce-9424-482d-a688-53ee2cef6345
+  uid: a3a0a2b1-0144-4cf6-b0ef-d8def2ce2208
+  etag: a5dc8dce57a38fabe57fb35793b80e675739708c
 spec:
   type: team
   profile:
-    displayName: DemoYAMLTest
+    displayName: demoYaml
   children: []
+  parent: group:default/mmolinademo3
