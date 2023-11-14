@@ -1,34 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  namespace: default
-  annotations:
-    backstage.io/managed-by-location: msgraph:default/fecb2c8a-4c73-4878-96fe-1c741716b365
-    backstage.io/managed-by-origin-location: msgraph:default/fecb2c8a-4c73-4878-96fe-1c741716b365
-    graph.microsoft.com/group-id: fecb2c8a-4c73-4878-96fe-1c741716b365
-  name: pedrogoc_git
-  description: test for pedro - CreatedBy DEVGoC
+  name: "deletememd123"
+  description: AD Group
   external:
-    type: azure-ad/group
-    id: fecb2c8a-4c73-4878-96fe-1c741716b365
-  uid: ebe5ce61-2672-4566-a9ee-33b5ebb0f732
-  etag: 0441944f1e59041ce90ad55a173509e4c18e9636
-relations:
-  - type: childOf
-    targetRef: group:default/tenaris
-    target:
-      kind: group
-      namespace: default
-      name: tenaris
-  - type: hasMember
-    targetRef: user:default/mdufour_tenaris.com
-    target:
-      kind: user
-      namespace: default
-      name: mdufour_tenaris.com
+    id: "44f11256-27b3-4f47-8481-af499c61bd13"
 spec:
   type: team
   profile:
-    displayName: pedrogoc_git
-  children: []
-  parent: group:default/tenaris
+    displayName: "deletememd123"
+  parent: group:default/goc_labs
+  children: [backstage]
+  members: ["user:mdufour_tenaris.com","user:ephillips_tenaris.com"]
