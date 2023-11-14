@@ -11,4 +11,4 @@ spec:
     displayName: "deletememd123"
   parent: group:default/goc_labs
   children: [backstage]
-  members: ["user:mdufour_tenaris.com","user:ephillips_tenaris.com"]
+ 
